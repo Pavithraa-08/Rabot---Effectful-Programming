@@ -1,0 +1,26 @@
+{
+  "name": "arbitrage-tracker",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "effect": "^3.19.16",
+    "open": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.33",
+    "@vitejs/plugin-react": "^5.1.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  },
+  "description": "This is a real-time monitor that scans multiple crypto exchanges to find price differences (arbitrage). Built for the **Rabot - Effectful Programming Bounty** challange at ETH Oxford, it demonstrates how to manage complex I/O, retries, and concurrency using a functional effect system."
+}
